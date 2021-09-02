@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MSYBaseClass_Example' do
+  pod 'MSYBaseClass', :path => '../'
+
+  target 'MSYBaseClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
