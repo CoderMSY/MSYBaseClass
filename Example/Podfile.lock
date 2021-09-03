@@ -1,0 +1,23 @@
+PODS:
+  - MJExtension (3.3.0)
+  - MSYBaseClass (0.1.0):
+    - MJExtension
+
+DEPENDENCIES:
+  - MSYBaseClass (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MJExtension
+
+EXTERNAL SOURCES:
+  MSYBaseClass:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MSYBaseClass: 880c343a370aa54a1cd53e4742447b25b065d06d
+
+PODFILE CHECKSUM: 7f5c8e67adfdf4d038bacc1a3656c5fd822b8ff2
+
+COCOAPODS: 1.10.1
